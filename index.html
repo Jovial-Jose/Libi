@@ -6,26 +6,34 @@
   <title>My Love... ❤️</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="question-page">
 
-  <div class="card">
-    <h1>My Love...</h1>
-    <p class="question">
-      In every heartbeat, every sunrise, every dream I chase,<br>
-      Do you love the boy who sees forever written in your face?
-    </p>
+  <!-- Floating effects -->
+  <div class="hearts"></div>
+  <div class="petals"></div>
 
-    <button class="btn btn-yes" onclick="location.href='quotes.html'">Yes, with all my heart ❤️</button>
-    <button class="btn btn-no" id="noBtn">No 💔</button>
-
-    <div id="noMessage" style="display:none; margin-top:35px;">
-      <p style="font-size:1.5rem; color:#e11d48;">
-        There is no "no" in love, my darling...<br>Only yes... only us. ❤️
+  <div class="question-container">
+    <div class="card question-card">
+      <h1>My Love...</h1>
+      <p class="question">
+        In every heartbeat, every sunrise, every dream I chase,<br>
+        Do you love the boy who sees forever written in your face?
       </p>
-      <button class="btn btn-yes" onclick="location.href='quotes.html'">Okay, Yes! I love you ❤️</button>
+
+      <div class="buttons-wrapper">
+        <button class="btn btn-yes" onclick="location.href='quotes.html'">Yes, with all my heart ❤️</button>
+        <button class="btn btn-no" id="noBtn">No 💔</button>
+      </div>
+
+      <div id="noMessage" style="display:none; margin-top:30px;">
+        <p style="font-size:1.4rem; color:#e11d48; line-height:1.5;">
+          There is no "no" in love, my darling...<br>Only yes... only us. ❤️
+        </p>
+        <button class="btn btn-yes" onclick="location.href='quotes.html'">Okay, Yes! I love you ❤️</button>
+      </div>
     </div>
   </div>
 
